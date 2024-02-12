@@ -84,7 +84,56 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* General Styles */
+* {
+  outline: 3px dashed red;
+}
 
+body {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+
+}
+
+h1,
+h2 {
+  font-family: 'Alike', Georgia, 'Times New Roman', Times, serif;
+}
+
+.content-wrapper {
+  width: 90%;
+  margin: 60px 0;
+}
+
+.center-content-and-text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation */
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+/* Main Area */
+
+/* Projects */
+
+/* Skills */
+
+/* About */
+
+/* Contact */
 
 /* ==========================================================================
    Helper classes
@@ -177,10 +226,11 @@ textarea {
 @media only screen and (min-width: 1200px) {
   /*Desktop Styles*/
 }
+
 @media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
 }
 
@@ -191,6 +241,7 @@ textarea {
    ========================================================================== */
 
 @media print {
+
   *,
   *::before,
   *::after {
@@ -250,4 +301,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
