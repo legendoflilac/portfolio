@@ -154,6 +154,22 @@ nav ul {
   margin: 40px 0;
 }
 
+.projects ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.projects li {
+  /*list-style-type: disc;*/
+  flex-wrap: wrap;
+  border-radius: 20px;
+  padding: 5%;
+  background-color: #e9b14c;
+  flex-shrink: 50%;
+}
+
+/*add hover class to go to link*/
+
 .projects img {
   width: 90%
 }
