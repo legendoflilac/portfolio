@@ -156,22 +156,28 @@ nav ul {
 
 .projects ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .projects li {
   /*list-style-type: disc;*/
-  flex-wrap: wrap;
-  border-radius: 20px;
-  padding: 5%;
+  border-radius: 5px;
+  margin: 1%;
+  padding: 2%;
   background-color: #e9b14c;
-  flex-shrink: 50%;
+  flex-grow: 50%;
+  min-width: 25%;
 }
 
 /*add hover class to go to link*/
 
 .projects img {
-  width: 90%
+  width: 90%;
+}
+
+.projects img:hover {
+  opacity: 0.7;
 }
 
 /* Skills */
@@ -181,6 +187,11 @@ nav ul {
 
 .skill-holder {
   padding: 30px 0;
+}
+
+.skills i {
+  font-size: 3em;
+  margin-bottom: 30px;
 }
 
 /* About */
