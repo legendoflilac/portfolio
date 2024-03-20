@@ -116,8 +116,7 @@ header {
   padding-top: 30px;
 }
 
-ul,
-ol {
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -129,6 +128,15 @@ nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: #453e4f;
+}
+
+nav ul a:hover {
+  opacity: 0.7;
 }
 
 /* Main Area */
@@ -191,7 +199,7 @@ nav ul {
 
 .skills i {
   font-size: 3em;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 /* About */
@@ -199,10 +207,25 @@ nav ul {
   background-color: #453e4f;
   color: #ffe8d6;
 }
+
+.about img {
+  max-width: 250px;
+  padding: 20px 10px; 
+}
 /* Contact */
 
 .contact {
   background-color: #f19494;
+}
+
+.icon-holder {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.icon-holder i {
+  font-size: 1.5em;
 }
 
 /* ==========================================================================
