@@ -160,6 +160,7 @@ nav ul a:hover {
 
 .projects article {
   margin: 40px 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
 
 .projects ul {
@@ -170,12 +171,28 @@ nav ul a:hover {
 
 .projects li {
   /*list-style-type: disc;*/
-  border-radius: 5px;
+  border-radius: 10px;
   margin: 1%;
   padding: 2%;
-  background-color: #e9b14c;
+  background-color: #e8eff7;
   flex-grow: 50%;
   min-width: 25%;
+}
+
+.projects button {
+  border: none;
+  background-color: #f19494;
+  border-radius: 10px;
+  margin: 5%;
+  padding: 4%;
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: 700;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.projects button:hover {
+  opacity: 0.7;
 }
 
 /*add hover class to go to link*/
