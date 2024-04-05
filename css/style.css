@@ -343,7 +343,23 @@ nav ul a:hover {
    ========================================================================== */
 
 @media only screen and (min-width: 768px) {
-  /*Tablet Styles*/
+  /*************Tablet Styles*****************/
+  * {
+    font-size: 20px;
+  }
+
+  .projects .item-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .projects article {
+    max-width: 48%;
+    margin: 0;
+  }
 
 }
 
