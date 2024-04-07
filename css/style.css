@@ -420,6 +420,11 @@ nav ul a:hover {
     display: flex;
     justify-content: flex-end;
   }
+
+  .main-area {
+    padding-bottom: 60px;
+  }
+  
   /****Navigation****/
 
   nav {
