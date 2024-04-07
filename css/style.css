@@ -86,7 +86,7 @@ textarea {
 
 /* General Styles */
 * {
-  outline: 3px dashed red;
+  /*outline: 3px dashed red;*/
   margin: 0px;
   font-size: 18px;
 }
@@ -169,7 +169,8 @@ nav ul a:hover {
 
 .projects article {
   margin: 40px 0;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
 }
 
 .projects p {
@@ -256,7 +257,8 @@ nav ul a:hover {
 }
 
 .icon-holder i {
-  font-size: 1.5em;
+  font-size: 50px;
+  color: #454545;
 }
 
 /* ==========================================================================
@@ -348,21 +350,23 @@ nav ul a:hover {
     font-size: 20px;
   }
 
+  /****Projects****/
  .projects .item-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
   }
 
   .projects article {
     display: flex;
     flex-direction: row;
-    margin: 0;
+    margin: 20px;
+    padding: 20px;
     height: 25%;
   }
 
   .projects img {
-    width: 300px;
+    min-width: 300px;
+    margin: 20px;
   }
 
   .projects-skills-div {
@@ -380,6 +384,31 @@ nav ul a:hover {
     margin: 2%;
     width: 50%;
     align-self: center;
+  }
+
+  /****Skills****/
+
+  .skill-group-holder {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+  }
+
+  .skill-holder {
+    min-width: 30%;
+  }
+
+  /****About****/
+
+  .about-content {
+    display: flex;
+    align-items: center;
+  }
+
+  /****Contact****/
+
+  .contact .icon-holder {
+    justify-content: space-evenly;
   }
 
 }
