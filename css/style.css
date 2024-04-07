@@ -414,6 +414,26 @@ nav ul a:hover {
 }
 @media only screen and (min-width: 1200px) {
   /*Desktop Styles*/
+
+  /****Header****/
+  header {
+    display: flex;
+    justify-content: flex-end;
+  }
+  /****Navigation****/
+
+  nav {
+    width: 45%;
+  }
+
+   nav ul {
+    gap: 25px;
+   }
+
+   /****Contact****/
+   .icon-holder {
+    margin: 50px;
+   }
 }
 
 @media print,
