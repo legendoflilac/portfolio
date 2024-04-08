@@ -103,6 +103,7 @@ h1 {
 h2 {
   font-size: 1.5em;
 }
+
 h1,
 h2 {
   font-family: 'Alike', Georgia, 'Times New Roman', Times, serif;
@@ -180,6 +181,7 @@ nav ul a:hover {
 .projects h3 {
   padding: 10px;
 }
+
 .projects ul {
   display: flex;
   justify-content: space-around;
@@ -193,6 +195,7 @@ nav ul a:hover {
   list-style-position: inside;
   max-width: 75%;
 }
+
 .projects button {
   border: none;
   background-color: #f19494;
@@ -242,13 +245,14 @@ nav ul a:hover {
 
 .about img {
   max-width: 250px;
-  padding: 20px 10px; 
+  padding: 20px 10px;
 }
 
 .about p {
   margin: 0 10px 10px 10px;
   text-align: left;
 }
+
 /* Contact */
 
 .contact {
@@ -350,6 +354,7 @@ nav ul a:hover {
    ========================================================================== */
 
 @media only screen and (min-width: 768px) {
+
   /*************Tablet Styles*****************/
   * {
     font-size: 20px;
@@ -360,8 +365,8 @@ nav ul a:hover {
   .projects h1 {
     margin-bottom: 30px;
   }
-  
- .projects .item-container {
+
+  .projects .item-container {
     display: flex;
     flex-wrap: wrap;
   }
@@ -389,7 +394,7 @@ nav ul a:hover {
   }
 
   .projects button {
-    margin: 0; 
+    margin: 0;
     padding: 2%;
     margin: 2%;
     width: 50%;
@@ -422,6 +427,7 @@ nav ul a:hover {
   }
 
 }
+
 @media only screen and (min-width: 1200px) {
   /*Desktop Styles*/
 
@@ -434,25 +440,25 @@ nav ul a:hover {
   .main-area {
     padding-bottom: 60px;
   }
-  
+
   /****Navigation****/
 
   nav {
     width: 30%;
   }
 
-   nav ul {
+  nav ul {
     gap: 10px;
-   }
+  }
 
-   /****Projects****/
+  /****Projects****/
 
-   .projects article {
+  .projects article {
     flex-basis: 100%;
     justify-content: center;
-   }
+  }
 
-   .projects img {
+  .projects img {
     min-width: 500px;
     margin: 20px;
   }
@@ -469,10 +475,10 @@ nav ul a:hover {
   }
 
 
-   /****Contact****/
-   .icon-holder {
+  /****Contact****/
+  .icon-holder {
     margin: 50px;
-   }
+  }
 }
 
 @media print,
