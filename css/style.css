@@ -86,7 +86,7 @@ textarea {
 
 /* General Styles */
 * {
-  outline: 3px dashed red;
+  /*outline: 3px dashed red;*/
   margin: 0px;
   font-size: 18px;
 }
