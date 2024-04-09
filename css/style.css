@@ -276,6 +276,11 @@ nav ul a:hover {
   color: #454545;
 }
 
+.icon-holder p {
+  font-size: 20px;
+  font-weight: 600;
+}
+
 
 /* ==========================================================================
    Helper classes
