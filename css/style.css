@@ -453,6 +453,10 @@ nav ul a:hover {
 
   /****Projects****/
 
+  .projects h1 {
+    margin-bottom: 50px;
+  }
+
   .projects article {
     flex-basis: 100%;
     justify-content: center;
