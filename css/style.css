@@ -81,12 +81,11 @@ textarea {
 }
 
 /* ==========================================================================
-   Author's custom styles
+   Custom styles
    ========================================================================== */
 
 /* General Styles */
 * {
-  /*outline: 3px dashed red;*/
   margin: 0px;
   font-size: 18px;
 }
@@ -175,7 +174,8 @@ nav ul a:hover {
 }
 
 .projects p {
-  padding: 10px 10px;
+  padding: 10px 20px;
+  text-align: left;
 }
 
 .projects h3 {
@@ -211,8 +211,6 @@ nav ul a:hover {
 .projects button:hover {
   opacity: 0.7;
 }
-
-/*add hover class to go to link*/
 
 .projects img {
   width: 90%;
@@ -263,11 +261,11 @@ nav ul a:hover {
   display: flex;
   justify-content: space-between;
   margin: 20px 0;
-  width: 60%;
+  width: 80%;
 }
 
 .icon-holder i {
-  font-size: 60px;
+  font-size: 50px;
   color: #454545;
 }
 
@@ -277,7 +275,6 @@ nav ul a:hover {
 }
 
 .icon-holder p {
-  font-size: 25px;
   color: #383838;
   font-weight: 600;
 }
@@ -361,10 +358,16 @@ nav ul a:hover {
 }
 
 /* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
+   Media Queries for Responsive Design
    ========================================================================== */
+
+/****Smooth transitions to site sections****/
+
+@media (prefers-reduced-motion: no-preference) {
+    html {
+        scroll-behavior: smooth;  
+    }
+}
 
 @media only screen and (min-width: 768px) {
 
@@ -434,7 +437,19 @@ nav ul a:hover {
   }
 
   /****Contact****/
+  .icon-holder {
+    width: 60%;
+    justify-content: space-between;
+    margin-top: 30px;
+  } 
 
+  .icon-holder i {
+    font-size: 60px;
+  }
+
+  .icon-holder p {
+    font-size: 1.3em;
+  }
 
 }
 
@@ -492,6 +507,11 @@ nav ul a:hover {
   /****Contact****/
   .icon-holder {
     margin: 50px;
+    width: 50%;
+  }
+
+  .icon-holder i {
+    font-size: 70px;
   }
 }
 
